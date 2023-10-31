@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -10,42 +10,90 @@
 }
 
 .header-container-1{
-    min-height: 50px;
-    background-color: aqua;
-    display: flex;
+    background-color: #255ee9;
 }
 
 
 .sotto-container-header-1{
-    width: 60%;
+    width: 65%;
     min-height: 40px;
     margin: auto;
-    background-color: orange;
-    border: 1px dashed black;
     display: flex;
     align-items: center;
+    margin-bottom: 7px;
 }
 
 
-.span-1, .span-2, .span-3 {
+ul >* {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+.link{
+    padding: 10px;
     display: flex;
-    border: 3px dashed black;
+    justify-content: space-around;
+    width: 50%;
+    display: inline-block;
+}
+
+.logo, .login{
+    display: flex;
     min-width: 25%;
+}
+
+.login-border{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    justify-content: center;
+}
+
+.bottom-header{
+    background-image: url(../img/jumbo.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
 }
 
 .header-container-2{
     min-height: 600px;
-    background-color: blue;
     display: flex;
 }
 
 .sotto-container-header-2{
     width: 60%;
     min-height: 500px;
-    background-color: pink;
-    border: 3px dashed black;
     margin: auto;
 }
+
+.titolo-1 , .paragrafo-1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.bottone-specifico{
+    line-height: 20px;
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    background color: white;
+}
+
+
 
 .main-container-1{
     min-height: 600px;
@@ -56,19 +104,31 @@
 .main-container-1 > .sotto-container-main-1-azzurro{
     width: 40%;
     min-height: 500px;
-    background-color: blue;
-    border: 3px dashed black;
     margin: auto;
     margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-container-1 > .sotto-container-main-1-rosa{
     width: 25%;
     min-height: 500px;
-    background-color: pink;
-    border: 3px dashed black;
     margin: auto;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titolo-principale{
+    text-align: center;
+
+}
+
+.paragrafo{
+    margin-top: 20px;
+    text-align: center;
 }
 
 .main-container-2{
@@ -76,22 +136,22 @@
     background-color: lightgrey;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 
 .main-container-2 > .sotto-container-main-1-azzurro{
     width: 40%;
     min-height: 500px;
-    background-color: blue;
-    border: 3px dashed black;
     margin: auto;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-container-2 > .sotto-container-main-1-rosa{
     width: 25%;
     min-height: 500px;
-    background-color: pink;
-    border: 3px dashed black;
     margin: auto;
     margin-right: 0;
 }
@@ -106,9 +166,16 @@
 .main-container-4 > .sotto-container-main-4-verde{
     width: 60%;
     min-height: 600px;
-    background-color: green;
-    border: 3px dashed black;
     margin: auto;
+    text-align: center;
+}
+
+.h1-special , .paragrafo-special{
+    text-align: center;
+}
+
+.paragrafo-special{
+    margin-top: 20px;
 }
 
 .footer-container-1{
