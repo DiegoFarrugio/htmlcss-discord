@@ -34,6 +34,10 @@ a {
     color: white;
 }
 
+header ul > li{
+    display: inline-block;
+}
+
 .link{
     padding: 10px;
     display: flex;
@@ -42,16 +46,13 @@ a {
     display: inline-block;
 }
 
-.logo, .login{
+.logo , .login{
     display: flex;
     min-width: 25%;
 }
 
 .login-border{
-    border-radius: 20px;
-    background-color: white;
-    color: black;
-    padding: 10px;
+    display: flex;
     justify-content: center;
 }
 
@@ -84,16 +85,25 @@ a {
     margin-right: 80px;
 }
 
-.bottone-specifico{
-    line-height: 20px;
-    color: black;
-    border-radius: 8px;
-    padding: 5px;
-    text-decoration: none;
-    background color: white;
+.bottoni-1-2-header{
+    display: flex;
+    justify-content: center;
 }
 
+.bottone-header-1 , .bottone-header-2{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    }
 
+.bottone-header-2{
+    background-color: black;
+    color: white;
+}
 
 .main-container-1{
     min-height: 600px;
@@ -133,7 +143,7 @@ a {
 
 .main-container-2{
     min-height: 600px;
-    background-color: lightgrey;
+    background-color: lightgray;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -165,9 +175,10 @@ a {
 
 .main-container-4 > .sotto-container-main-4-verde{
     width: 60%;
-    min-height: 600px;
+    min-height: 900px;
     margin: auto;
     text-align: center;
+    padding: 40px;
 }
 
 .h1-special , .paragrafo-special{
@@ -178,53 +189,100 @@ a {
     margin-top: 20px;
 }
 
+.h1-fine-main{
+    margin-bottom: 20px;
+}
+
+.bottone-fine-main{
+    color: white;
+    font-size: 18px;
+    border: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(110, 110, 255);
+}
+
 .footer-container-1{
     min-height: 600px;
     background-color: rgb(34, 32, 32);
     display: flex;
-    flex-direction: row;
-    margin: auto;
     justify-content: center;
 }
 
 .sotto-container-footer-1{
     width: 25%;
     min-height: 550px;
-    background-color: pink;
-    border: 3px dashed black;
+    display: flex;
+    flex-direction: column;
     margin: auto;
     margin-left: 0;
     margin-right: 0;
 }
 
+.dimensioni-bandiera-italia{
+    width: 23px;
+    vertical-align: middle;
+}
+
+.h2-color-blue{
+    color: rgb(13, 104, 223);
+}
+
+.loghi-social, .span-white{
+    color: white;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.logo-margine{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
 .sotto-container-footer-2{
     width: 15%;
     min-height: 550px;
-    background-color: lightgreen;
-    border: 3px dashed white;
     margin: auto;
     margin-left: 0;
     margin-right: 0;
+}
+
+.primo-elemento-lista{
+    color: rgb(13, 104, 223);
+}
+
+ul>*{
+    color: white;
+    font-size: 18px;
+    margin: 10px;
 }
 
 .footer-container-2{
     min-height: 70px;
     background-color: rgb(34, 32, 32);
     padding: 20px;
+    margin: auto;
 }
 
 .sotto-container-footer-3{
     width: 65%;
     min-height: 40px;
-    background-color: lightgreen;
-    border: 1px dashed black;
     display: flex;
     align-items: center;
-}
-
-.span-pink{
-    background-color: pink;
-    border: 1px dashed black;
     justify-content: space-between;
 }
 
+
+.sotto-container-footer-1{
+    margin-top: 30px;
+}
+
+.bottone-fine-footer{
+    color: white;
+    font-size: 18px;
+    border: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(110, 110, 255);
+}
