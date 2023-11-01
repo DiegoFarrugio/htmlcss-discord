@@ -202,7 +202,7 @@ header ul > li{
     vertical-align: middle;
 }
 
-.h2-color-blue{
+.color-blue{
     color: rgb(13, 104, 223);
 }
 
@@ -224,10 +224,6 @@ header ul > li{
     margin: auto;
     margin-left: 0;
     margin-right: 0;
-}
-
-.primo-elemento-lista{
-    color: rgb(13, 104, 223);
 }
 
 ul>*{
